@@ -37,3 +37,27 @@ button:active {
     font-size: 30px;
     
 }
+@media screen and (max-width: 900px) {
+    .columnL {
+      flex: 40%;
+      position: relative;
+      max-width: 40%;
+      bottom: 0%;
+      left: 0%;
+      width: 10%;
+      height: 40%;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .columnA {
+      flex: 50%;
+      position: relative;
+      max-width: 25%;
+      top: 0%;
+      left: 30%;
+      width: 40%;
+      height: 40%;
+      font-size: 20px;
+      text-align: center;
+    }
+  }
